@@ -1,0 +1,27 @@
+{
+    "version": "1.0.0",
+    "description": "Tauri-based file explorer with vim navigation and tagging.",
+    "homepage": "https://github.com/YannickHerrero/Explorer",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/YannickHerrero/Explorer/releases/download/v1.0.0/Explorer_1.0.0_x64_en-US.msi",
+            "hash": "34cfa25cda6b9a415f5e13533bc35a861b47077134f9aa50d2a6797ef280ad37"
+        }
+    },
+    "extract_dir": "SourceDir\\Explorer",
+    "bin": "Explorer.exe",
+    "shortcuts": [
+        ["Explorer.exe", "Explorer"]
+    ],
+    "checkver": {
+        "github": "https://github.com/YannickHerrero/Explorer"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/YannickHerrero/Explorer/releases/download/v$version/Explorer_$version_x64_en-US.msi"
+            }
+        }
+    }
+}
