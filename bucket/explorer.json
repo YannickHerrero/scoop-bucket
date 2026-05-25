@@ -5,22 +5,19 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/YannickHerrero/Explorer/releases/download/v1.0.0/Explorer_1.0.0_x64_en-US.msi",
-            "hash": "34cfa25cda6b9a415f5e13533bc35a861b47077134f9aa50d2a6797ef280ad37"
+            "url": "https://github.com/YannickHerrero/Explorer/releases/download/v1.0.0/explorer-portable.zip",
+            "hash": "0000000000000000000000000000000000000000000000000000000000000000"
         }
     },
-    "extract_dir": "SourceDir\\Explorer",
-    "bin": "Explorer.exe",
+    "bin": "explorer-app.exe",
     "shortcuts": [
-        ["Explorer.exe", "Explorer"]
+        ["explorer-app.exe", "Explorer"]
     ],
-    "checkver": {
-        "github": "https://github.com/YannickHerrero/Explorer"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/YannickHerrero/Explorer/releases/download/v$version/Explorer_$version_x64_en-US.msi"
+                "url": "https://github.com/YannickHerrero/Explorer/releases/download/v$version/explorer-portable.zip"
             }
         }
     }
