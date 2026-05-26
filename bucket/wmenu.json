@@ -1,12 +1,12 @@
 {
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "Keyboard-driven launcher and hotkey daemon for Windows.",
     "homepage": "https://github.com/YannickHerrero/wmenu",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/YannickHerrero/wmenu/releases/download/v1.2.0/wmenu.exe",
-            "hash": "094f302526c7fb3851becd607229ba28a2bd0ccec15f8c1ac32f98994f8e1252"
+            "url": "https://github.com/YannickHerrero/wmenu/releases/download/v1.2.1/wmenu.exe",
+            "hash": "eecafd3841e393967704236a32c6600f2ab8fe0e750acb18c9a150cde7447819"
         }
     },
     "bin": "wmenu.exe",
