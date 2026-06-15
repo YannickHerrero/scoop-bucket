@@ -1,12 +1,12 @@
 {
-    "version": "1.2.5",
+    "version": "1.2.6",
     "description": "Minimal status bar for Windows (AppBar) designed to pair with GlazeWM.",
     "homepage": "https://github.com/YannickHerrero/wbar",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/YannickHerrero/wbar/releases/download/v1.2.5/wbar.exe",
-            "hash": "69ec2ab455ebd7cd756a84b3cb693be9e0983a7d31e7ead7f0d7cdfa0942c6f4"
+            "url": "https://github.com/YannickHerrero/wbar/releases/download/v1.2.6/wbar.exe",
+            "hash": "33a2cb1dc521bd5811dcaa362f746f45891a6f02d73ce7828eecae0369d54cc8"
         }
     },
     "bin": "wbar.exe",
