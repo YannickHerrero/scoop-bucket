@@ -1,12 +1,12 @@
 {
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Tiny native desktop pet for Windows.",
     "homepage": "https://github.com/YannickHerrero/nekodachi",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/YannickHerrero/nekodachi/releases/download/v0.1.0/nekodachi.exe",
-            "hash": "ac31a30df7eadf3c29c0cffb868a7f4a294030e407fa24e8beb6622d6addb5a4"
+            "url": "https://github.com/YannickHerrero/nekodachi/releases/download/v0.1.1/nekodachi.exe",
+            "hash": "a32975d11cf876b89cd912b88969e08f60c666fc6b7262b49e70bada34ca61d4"
         }
     },
     "bin": "nekodachi.exe",
