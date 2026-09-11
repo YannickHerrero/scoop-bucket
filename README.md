@@ -15,6 +15,7 @@ scoop install yannick/wmenu
 scoop install yannick/wbar
 scoop install yannick/explorer
 scoop install yannick/nekodachi
+scoop install yannick/winarchy
 ```
 
 ## Apps
@@ -25,3 +26,4 @@ scoop install yannick/nekodachi
 | `wbar` | [YannickHerrero/wbar](https://github.com/YannickHerrero/wbar) | Minimal status bar (pairs with GlazeWM) |
 | `explorer` | [YannickHerrero/Explorer](https://github.com/YannickHerrero/Explorer) | Tauri-based file explorer |
 | `nekodachi` | [YannickHerrero/nekodachi](https://github.com/YannickHerrero/nekodachi) | Tiny native desktop pet |
+| `winarchy` | [YannickHerrero/winarchy](https://github.com/YannickHerrero/winarchy) | Keyboard-first tiling window manager and experimental shell |

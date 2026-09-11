@@ -1,0 +1,32 @@
+{
+    "version": "0.1.0",
+    "description": "Keyboard-first tiling window manager and experimental shell for Windows 11.",
+    "homepage": "https://github.com/YannickHerrero/winarchy",
+    "license": "MIT",
+    "notes": [
+        "Recovery if the desktop becomes unusable: Ctrl+Shift+Esc, Run new task, explorer.exe.",
+        "Stop Winarchy normally with: winarchyctl quit"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/YannickHerrero/winarchy/releases/download/v0.1.0/winarchy-windows-x64.zip",
+            "hash": "45afc0c4325559c4ceff7397bfa488af75e9a04c02c2e49b3f4f862296ae828f"
+        }
+    },
+    "bin": [
+        "winarchy.exe",
+        "winarchyctl.exe",
+        "winarchy-shot.exe"
+    ],
+    "shortcuts": [
+        ["winarchy.exe", "Winarchy"]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/YannickHerrero/winarchy/releases/download/v$version/winarchy-windows-x64.zip"
+            }
+        }
+    }
+}
