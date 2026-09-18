@@ -1,0 +1,33 @@
+{
+    "version": "2.3.3",
+    "description": "Official Proton Pass command-line client for vaults, logins and secrets.",
+    "homepage": "https://protonpass.github.io/pass-cli/",
+    "license": "GPL-3.0-or-later",
+    "architecture": {
+        "64bit": {
+            "url": "https://proton.me/download/pass-cli/2.3.3/pass-cli-windows-x86_64.zip",
+            "hash": "4169c7644e3475f294d265e2f1262476573e41d372b905187222c52f1c6dbca5"
+        }
+    },
+    "bin": "pass-cli.exe",
+    "notes": [
+        "This is the CLI, separate from the Proton Pass desktop application (extras/proton-pass).",
+        "Authenticate through your browser with: pass-cli login",
+        "Update with Scoop, not pass-cli update: scoop update proton-pass-cli"
+    ],
+    "checkver": {
+        "url": "https://proton.me/download/pass-cli/versions.json",
+        "jsonpath": "$.passCliVersions.version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://proton.me/download/pass-cli/$version/pass-cli-windows-x86_64.zip",
+                "hash": {
+                    "url": "https://proton.me/download/pass-cli/versions.json",
+                    "jsonpath": "$.passCliVersions.urls.windows.x86_64.hash"
+                }
+            }
+        }
+    }
+}
